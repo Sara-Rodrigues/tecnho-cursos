@@ -12,10 +12,8 @@
 
 <script>
 import fetchData from "@/mixins/fetchData.js";
-import PageLoading from '../components/PageLoading.vue';
 
 export default {
-  components: { PageLoading },
   name: "Home",
   mixins: [fetchData],
   created() {
