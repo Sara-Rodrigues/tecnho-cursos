@@ -41,4 +41,13 @@ a.router-link-active {
   margin: 0 auto;
   padding: 20px;
 }
+
+.v-enter {
+  opacity: 0;
+  transform: translate3d(-20px, 0, 0);
+}
+
+.v-enter-active {
+  transition: all 0.3s;
+}
 </style>
